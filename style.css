@@ -13,6 +13,7 @@ a {
   text-decoration: none;
 }
 
+
 img {
   width: 100%;
   height: auto;
@@ -302,6 +303,7 @@ nav.show div.icon-close {
 }
 
 #home .text p {
+  text-align: justify;
   margin-bottom: 2rem;
 }
 
