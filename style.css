@@ -345,6 +345,10 @@ nav.show div.icon-close {
   margin-right: 1.5rem;
 }
 
+#about .text p{
+  text-align: justify;
+}
+
 /*====  SERVICES ============================ */
 .cards.grid {
   gap: 1.5rem;
