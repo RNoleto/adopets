@@ -618,9 +618,14 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 /* Form */
+.box {
+  color: var(--text-color-light);
+  background-color: var(--base-color);
+}
 
 /*====  FOOTER ============================ */
 footer {
+  font: var(--text-color-light);
   background: var(--base-color);
 }
 
