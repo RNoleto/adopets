@@ -619,6 +619,11 @@ nav.show div.icon-close {
 }
 
 /*====  FOOTER ============================ */
+/* Form */
+.boxForm{
+  border: 1px solid red;
+}
+
 footer {
   font: var(--text-color-light);
   background: var(--base-color);
