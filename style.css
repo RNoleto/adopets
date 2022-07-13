@@ -617,11 +617,6 @@ nav.show div.icon-close {
 #contact ul li i {
   color: var(--base-color);
 }
-/* Form */
-.box {
-  color: var(--text-color-light);
-  background-color: var(--base-color);
-}
 
 /*====  FOOTER ============================ */
 footer {
