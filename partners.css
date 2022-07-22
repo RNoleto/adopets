@@ -1,0 +1,92 @@
+/*====  PARTNER ============================ */
+#partner {
+    overflow: hidden;
+  }
+  
+  #partner .container {
+    margin: 0;
+  }
+  
+  #partner .image {
+    position: relative;
+  }
+    
+  #partner .image img {
+    position: relative;
+    right: .1rem;
+  }
+    
+  #partner .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+  
+  #partner .text h1 {
+    margin-bottom: 1rem;
+  }
+  
+  #partner .text p {
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
+
+#partner .grid {
+  gap: 4rem;
+}
+
+#partner .text p {
+  margin-bottom: 2rem;
+}
+
+#partner .button i,
+#partner ul li i {
+  font-size: 1.5rem;
+  margin-right: 0.625rem;
+}
+
+#partner ul.grid {
+  gap: 2rem;
+}
+
+#partner ul li {
+  display: flex;
+  align-items: center;
+}
+
+#partner ul li i {
+  color: var(--base-color);
+}
+
+/* Contact Partner */
+#contatcPartner .maps {
+  width: 200;
+  height: 200;
+}
+
+/*========= MEDIA QUERIES =========*/
+/* extra large devices: 1200 > */
+@media (min-width: 1200px) {
+    /* reusable classes */
+    /* partner */
+    #partner .container {
+      grid-auto-flow: column;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  
+    #partner .image {
+      order: 0;
+      width: 400px;
+    }
+  
+    #partner .text {
+      order: 1;
+      max-width: 30rem;
+      text-align: left;
+    }    
+    #contact .links {
+      order: 0;
+    }
+}
