@@ -59,6 +59,7 @@ scrollReveal.reveal(
   `
 #home .image, #home .text,
 #about .image, #about .text,
+#news .text, #news img, #news .news-card,
 #services header, #services .card,
 #contact .text, #contact .links,
 footer .brand, footer .social,

@@ -367,6 +367,16 @@ nav.show div.icon-close {
   gap: 1rem;
 }
 
+.news-card .title {
+  margin-bottom: .5rem;
+}
+
+.news-card .subtitle {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-color-light);
+}
+
 .resume {
   padding: 1rem;
   color: var(--text-color-light);
@@ -388,6 +398,7 @@ nav.show div.icon-close {
 }
 
 .keywords {
+  font-size: 12px;
   display: flex;
   gap: 0.5rem;
 }
@@ -395,12 +406,47 @@ nav.show div.icon-close {
 .resume .tag {
   margin-top: 1rem;
   box-sizing: auto;
-  width: 100px;
+  width: auto;
   padding: 0.5rem;
   border-radius: 50px;
   background: var(--base-color-alt);
   border: 1px solid var(--text-color-light);
   text-align: center;
+}
+
+/* Pagina de Posts */
+#cafeRacao .titlePost {
+  font-size: var(--title-font-size);
+  color: var(--base-color);
+}
+
+#cafeRacao .subtitle {
+  font-size: var(--subtitle-font-size);
+  color: var(--base-color);
+}
+
+#cafeRacao .content .imgTop {
+  gap: 1rem;
+  display: flex;
+  width: auto;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+#cafeRacao .content .imgTop img {
+  display: flex;
+  width: 550px;
+  border-radius: 5px;
+}
+
+
+#cafeRacao .content p {
+  text-align: justify;
+  margin-bottom: .5rem;
+}
+
+#cafeRacao strong {
+  color: var(--base-color);
 }
 
 /*====  LOST ============================ */
