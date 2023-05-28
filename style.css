@@ -919,4 +919,10 @@ footer .social a:hover {
   .w-2 {
     grid-column: span 1;
   }
+
+  /* Café com Ração */
+  #cafe-racao .swiper-slide {
+    padding: 0rem;
+    gap: 0;
+  }
 }
