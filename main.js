@@ -32,7 +32,7 @@ function changeHeaderWhenScroll() {
 }
 
 /* Testimonials carousel slider swiper */
-const swiper = new Swiper('.swiper-container', {
+const swiperTestmonials = new Swiper('.swiper-container', {
   slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination'
@@ -59,6 +59,7 @@ scrollReveal.reveal(
   `
 #home .image, #home .text,
 #about .image, #about .text,
+#news .text, #news img, #news .news-card,
 #services header, #services .card,
 #contact .text, #contact .links,
 footer .brand, footer .social,
@@ -109,3 +110,11 @@ window.addEventListener('scroll', function () {
   backToTop()
   activateMenuAtCurrentSection()
 })
+
+
+var swiper = new Swiper(".mySwiper", {
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+  },
+});
