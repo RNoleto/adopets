@@ -338,114 +338,67 @@ nav.show div.icon-close {
 #about .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 #about .text p {
   text-align: justify;
 }
 
-/*====  NEWS ============================ */
-.news-card {
-  padding: 1rem;
-  background-color: var(--base-color);
+/*====  Café com Ração ============================ */
+#cafe-racao .swiper-slide {
   width: 100%;
-  height: auto;
-  border-radius: 5px;
+  background-color: var(--base-color-second);
+  padding: 0 16rem;
 }
 
-.news-card .title {
-  color: var(--text-color-light);
+#cafe-racao .swiper-slide {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
 }
 
-.news-card img {
-  border-radius: 5px;
-  width: 400px;
+#cafe-racao .text {
+  margin: 100px 0;
+  max-width: 700px;
 }
 
-.news-content {
+.swiper-slide img {
+  max-width: 500px;
+}
+
+/* posts */
+.date {
+  width: max-content;
+  padding: 1rem 0;
+  border-radius: 25px;
+}
+
+#cafe-racao-post img {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+#cafe-racao-post .img-text {
   display: flex;
   gap: 1rem;
+  padding: 1rem 0;
 }
 
-.news-card .title {
-  margin-bottom: .5rem;
-}
-
-.news-card .subtitle {
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  color: var(--text-color-light);
-}
-
-.resume {
-  padding: 1rem;
-  color: var(--text-color-light);
+#cafe-racao-post .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   text-align: justify;
 }
 
-.resume p:nth-child(2) {
-  margin-top: 1rem;
-}
-
-.resume .button {
-  margin-top: 1rem;
-  background: var(--base-color-alt);
-}
-
-.resume .button:hover {
-  background: var(--base-color-second);
-  color: var(--base-color);
-}
-
-.keywords {
-  font-size: 12px;
-  display: flex;
-  gap: 0.5rem;
-}
-
-.resume .tag {
-  margin-top: 1rem;
-  box-sizing: auto;
-  width: auto;
-  padding: 0.5rem;
-  border-radius: 50px;
-  background: var(--base-color-alt);
-  border: 1px solid var(--text-color-light);
-  text-align: center;
-}
-
-/* Pagina de Posts */
-#cafeRacao .titlePost {
-  font-size: var(--title-font-size);
-  color: var(--base-color);
-}
-
-#cafeRacao .subtitle {
-  font-size: var(--subtitle-font-size);
-  color: var(--base-color);
-}
-
-#cafeRacao .content .imgTop {
-  gap: 1rem;
-  display: flex;
-  width: auto;
-  margin-bottom: 1rem;
-  justify-content: space-between;
-}
-
-#cafeRacao .content .imgTop img {
-  display: flex;
-  width: 550px;
-  border-radius: 5px;
-}
-
-
-#cafeRacao .content p {
-  text-align: justify;
-  margin-bottom: .5rem;
-}
-
-#cafeRacao strong {
+#cafe-racao-post span {
+  font-size: 25px;
+  font-weight: bold;
   color: var(--base-color);
 }
 
@@ -884,6 +837,7 @@ footer .social a:hover {
   #about .container {
     margin: 0 auto;
     grid-auto-flow: column;
+    align-items: center;
   }
 
   /* services */
